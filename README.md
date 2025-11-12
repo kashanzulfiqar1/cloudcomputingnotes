@@ -10,8 +10,10 @@ git fetch origin<br>
 git branch -r(for checking the remote branchs)
 git branch -a(for checking all branches)
 git status (for checking the status of a branch if any file is added changed or deleted etc)
-git checkout branchname (used to navigate to branches if the branch is not available it makes new branch and takes the user in that branch)
-
+git checkout branchname (used to navigate to branches)
+git branch newbranch(used to create a new branch)
+git 
+git remote add origin (Used to link local repo to github repo on the internet its not important for you to be the owner of that branch)
 
 # AWS notes<br>
 # S3<br>

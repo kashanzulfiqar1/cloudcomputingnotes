@@ -42,9 +42,9 @@ The logs,volumes and file such as html file for nginx is stored in **var folder*
 **ls -la** (to view hidden file as well as all other files in detailed view)
 **cd..**                   (is used  to go back from current folder to one folder back)<br>
 **sudo -i**(change user to root user)<br>
-**history** (this command is used to view the commands executed by the user in a session)
-**rm** (it is used to remove a file like rm newfile.txt it will remove newfile.txt file)\\
-**rm -r** (-r is for recursive and this command is used for deleting a folder and file)
+**history** (this command is used to view the commands executed by the user in a session)<br>
+**rm** (it is used to remove a file like rm newfile.txt it will remove newfile.txt file)<br>
+**rm -r** (-r is for recursive and this command is used for deleting a folder and file)<br>
 
 
 # AWS notes<br>

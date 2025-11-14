@@ -53,7 +53,7 @@ The logs,volumes and file such as html file for nginx is stored in **var folder*
 **groupadd newgroup(groupname)** (creates new group)<br>
 **df** (used to check free space in the disk)<br>
 **du newfile(filename)** (used to check the space a file or folder is taking on disk)<br>
-**du -h newfile(filename)** (du with -h flag is for human readable form of the result of du we can add other flags **-ah** for checking the space with list of the files or<br> folders present in that folder **-sh** its another flag that stands for sumarized human readable it shows sumarized human readable view)<br>
+**du -h newfile(filename)** (du with -h flag is for human readable form of the result of du we can add other flags **-ah** for checking the space with list of the files or folders present in that folder **-sh** its another flag that stands for sumarized human readable it shows sumarized human readable view)<br>
 
 
 # AWS notes<br>

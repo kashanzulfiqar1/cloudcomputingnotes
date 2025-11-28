@@ -52,15 +52,24 @@ The logs,volumes and file such as html file for nginx is stored in **var folder*
 **adduser kashan(username)** (creates a user with password and directory)<br>
 **groupadd newgroup(groupname)** (creates new group)<br>
 **df** (used to check free space in the disk)<br>
-**du newfile(filename)** (used to check the space a file or folder is taking on disk)<br>
+**du newfile(filename)** (used to check the space  a file or folder is taking on disk)<br>
 **du -h newfile(filename)** (du with -h flag is for human readable form of the result of du we can add other flags **-ah** for checking the space with list of the files or folders present in that folder **-sh** its another flag that stands for sumarized human readable it shows sumarized human readable view)<br>
 
 
 # AWS notes<br>
+# Aws pricing plans
+# Saving Plans
+Saving plain is as a package for 1 or 3 years it provides a discounted rate per hour on services like ec2 lambda. It gives up to 72% discounted rates.It has 3 payment options full upfront(max disocount) no upfront (Monthly minimum disocunt) partial upfront (Medium disount)
+# On demand
+In on demand we can get the resources when required and pay for the service as long as we use it
+
 # S3<br>
 # S3 Definition<br>
 s3 (simple storage service) is a aws service that is used for storing data in the form of objects each file in s3 is stored as an object.<br>
 # S3 Classes<br>
 S3 has classes according to the need these classes vaires in pricing frequency of data read write and retieval times etc<br>
-
+# Standard class
+It is most expensive class type it allows free retrival and is used when we want to store data that needs frequent acccess like logs.
+# Intelligent-Tiering
+It is an intelligent class that automatically manages out storage cost by migrating our data to lower cheaper class based on access patterns like if data is frequently accessed it will shirf our data to stand and if data frequency changes back to 30 days it will migrate out data to infrequent class and if data is not accessed for 90 days it will shift to frequent archive and if data is not used for 270 days it will shift our data to glacier deep archive. Advanctage of this classe is automatic cost optimization and free data access even if data is in glacier class.
 # EC2<br>

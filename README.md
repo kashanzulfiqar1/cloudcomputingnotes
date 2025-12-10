@@ -92,3 +92,11 @@ This class provides most cheepest way of storing data but retrival cost is high.
 # placement group
 
 This creates a logical rack of ec2s .We can place ec2s in our predefined racks or partitions to improve fault tolerance if we need to improve speed between ec2s we can use cluster partition group and if we need to isolate it we can use partition type.Partition placement group is more scalable then spread placement group that only supports 7 ec2s per availability zone.
+
+# Shell Scripting
+It is used for task automation for example if we want to install any app like nginx 
+# Common for every linux script
+first line of the file is !/bin/bash 
+after that we can write any linux command we want to execute line apt update service nginx status etc
+the file name should end with .sh extension and to run this script we simmple tyoe ./ at the start of the file but remember to give it executable permission by chmod 777
+

@@ -73,30 +73,30 @@ It provides biding on aws unused resources the resources can be taken back anyti
 s3 (simple storage service) is a aws service that is used for storing data in the form of objects each file in s3 is stored as an object.<br>
 # S3 Classes<br>
 S3 has classes according to the need these classes vaires in pricing frequency of data read write and retieval times etc<br>
-# Standard class
-It is most expensive class type it allows free retrival and is used when we want to store data that needs frequent acccess like logs.
-# Intelligent-Tiering
-It is an intelligent class that automatically manages out storage cost by migrating our data to lower cheaper class based on access patterns like if data is frequently accessed it will shirf our data to stand and if data frequency changes back to 30 days it will migrate out data to infrequent class and if data is not accessed for 90 days it will shift to frequent archive and if data is not used for 270 days it will shift our data to glacier deep archive. Advanctage of this classe is automatic cost optimization and free data access even if data is in glacier class.
-# Standard infrequent 
-This class also provides instant retrival like standard class but its cheaper in cost but the retrival cost is not free you can store data in it if the data retrival frequency is about  30 days.
-# One zone instant 
-The data retrival in this class is instant but it does not stores data in 3 zones like in other classes so it is not reliable if that zone is down all the data is not accessable.
-# Glacier instant retrival
-In this class data can be  accessed instantly but frequency of accessing that data is less like after 90 days. retrival cost is high then standard if
-# Glacier Archive 
-In this class data is stored for long time retrive like about 180 days retrival cost is high.but storage cost is low.
-# Glacier Deep Archive 
-This class provides most cheepest way of storing data but retrival cost is high. Recommended for storing data if retrival frequency is 280 days.12 to 48 hours retrival time.
+# Standard class<br>
+It is most expensive class type it allows free retrival and is used when we want to store data that needs frequent acccess like logs.<br>
+# Intelligent-Tiering<br>
+It is an intelligent class that automatically manages out storage cost by migrating our data to lower cheaper class based on access patterns like if data is frequently <br>accessed it will shirf our data to stand and if data frequency changes back to 30 days it will migrate out data to infrequent class and if data is not accessed for 90 <br>days it will shift to frequent archive and if data is not used for 270 days it will shift our data to glacier deep archive. Advanctage of this classe is automatic cost<br>optimization and free data access even if data is in glacier class.<br>
+# Standard infrequent <br>
+This class also provides instant retrival like standard class but its cheaper in cost but the retrival cost is not free you can store data in it if the data retrival <br>frequency is about  30 days.<br>
+# One zone instant <br>
+The data retrival in this class is instant but it does not stores data in 3 zones like in other classes so it is not reliable if that zone is down all the data is not <br>accessable.<br>
+# Glacier instant retrival<br>
+In this class data can be  accessed instantly but frequency of accessing that data is less like after 90 days. retrival cost is high then standard if<br>
+# Glacier Archive <br>
+In this class data is stored for long time retrive like about 180 days retrival cost is high.but storage cost is low.<br>
+# Glacier Deep Archive <br>
+This class provides most cheepest way of storing data but retrival cost is high. Recommended for storing data if retrival frequency is 280 days.12 to 48 hours retrival time.<br>
 
 # EC2<br>
-# placement group
+# placement group<br>
 
-This creates a logical rack of ec2s .We can place ec2s in our predefined racks or partitions to improve fault tolerance if we need to improve speed between ec2s we can use cluster partition group and if we need to isolate it we can use partition type.Partition placement group is more scalable then spread placement group that only supports 7 ec2s per availability zone.
+This creates a logical rack of ec2s .We can place ec2s in our predefined racks or partitions to improve fault tolerance if we need to improve speed between ec2s we can use <br>cluster partition group and if we need to isolate it we can use partition type.Partition placement group is more scalable then spread placement group that only supports <br>7 ec2s per availability zone.<br>
 
-# Shell Scripting
-It is used for task automation for example if we want to install any app like nginx 
-# Common for every linux script
-first line of the file is !/bin/bash 
-after that we can write any linux command we want to execute line apt update service nginx status etc
-the file name should end with .sh extension and to run this script we simmple tyoe ./ at the start of the file but remember to give it executable permission by chmod 777
+# Shell Scripting<br>
+It is used for task automation for example if we want to install any app like nginx <br>
+# Common for every linux script<br>
+first line of the file is !/bin/bash <br>
+after that we can write any linux command we want to execute line apt update service nginx status etc<br>
+the file name should end with .sh extension and to run this script we simmple tyoe ./ at the start of the file but remember to give it executable permission by chmod 777<br>
 

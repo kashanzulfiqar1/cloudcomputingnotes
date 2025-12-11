@@ -64,7 +64,8 @@ the file name should end with .sh extension and to run this script we simmple ty
 # debug mode
 set -x (trace mode) to turn on debug mode it shows each command before execution for easy debugging
 set +x debugging mode disabled
-set -
+set -e exit the script if error exist
+set -o pipeline fail
 
 # condition statements in linux<br>
 #!/bin/bash<br>

@@ -61,6 +61,11 @@ It is used for task automation for example if we want to install any app like ng
 first line of the file is !/bin/bash <br>
 after that we can write any linux command we want to execute line apt update service nginx status etc<br>
 the file name should end with .sh extension and to run this script we simmple tyoe ./ at the start of the file but remember to give it executable permission by chmod 777<br>
+# debug mode
+set -x (trace mode) to turn on debug mode it shows each command before execution for easy debugging
+set +x debugging mode disabled
+set -
+
 # condition statements in linux<br>
 #!/bin/bash<br>
 a=20<br>

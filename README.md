@@ -79,8 +79,22 @@ else<br>
 echo "equal $a $b"<br>
 fi<br>
 <br><br><br>
+# Linux script with set -x set -e set -o commands
 
-
+#!/bin/bash
+set -x # used for debugging the script it shows each command that is run in each step before output of the command
+set -e # used to exit script if there is an error in script
+set -o # used to exit script if there is an error in pipeline
+a=20
+b=2
+ls -la | grep -i test
+if [ "$b" -gt "$a" ] ; then
+echo "b is Greater than a $b"
+elif [ "$a" -gt "$b" ] ; then
+echo "a is Greater then b $a"
+else
+echo "equal $a $b"
+fi
 
 
 # AWS notes<br>

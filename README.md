@@ -55,8 +55,8 @@ The logs,volumes and file such as html file for nginx is stored in **var folder*
 **du newfile(filename)** (used to check the space  a file or folder is taking on disk)<br>
 **du -h newfile(filename)** (du with -h flag is for human readable form of the result of du we can add other flags **-ah** for checking the space with list of the files or folders present in that folder **-sh** its another flag that stands for sumarized human readable it shows sumarized human readable view)<br>
 **awk** this commaand is used to filter the output 
-**awk usage**  ps -ef | awk -F" " '{print $2}' here we hare printing all the column 2 and each column is saparated by a space
-<img width="818" height="136" alt="image" src="https://github.com/user-attachments/assets/b634f437-3410-407f-8b7c-1e3f2c2ac285" />
+**awk usage**  ps -ef | awk -F" " '{print $2}' here we hare printing all the column 2 and each column is saparated by a space<br>
+<img width="818" height="136" alt="image" src="https://github.com/user-attachments/assets/b634f437-3410-407f-8b7c-1e3f2c2ac285" /><br>
 
 # Shell Scripting<br>
 It is used for task automation for example if we want to install any app like nginx <br>

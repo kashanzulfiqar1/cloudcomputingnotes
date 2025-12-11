@@ -98,7 +98,8 @@ echo "a is Greater then b $a"
 else
 echo "equal $a $b"
 fi
-
+# what is crontab
+its like a alaram that executes a script on a specific time like if we want to send cpu usage on specific time we use crontab 
 
 # AWS notes<br>
 # Aws pricing plans

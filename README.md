@@ -58,7 +58,8 @@ The logs,volumes and file such as html file for nginx is stored in **var folder*
 **awk** this commaand is used to filter the output 
 **awk usage**  ps -ef | awk -F" " '{print $2}' here we hare printing all the column 2 and each column is saparated by a space<br>
 <img width="818" height="136" alt="image" src="https://github.com/user-attachments/assets/b634f437-3410-407f-8b7c-1e3f2c2ac285" /><br>
-**ln file1 file2** this command is used to create a linked file in this case if file1 exist it will create a file2 with same data as file1 and it will be synced to changes if we add any change to file1 or file2 both will bw synced.
+**ln file1 file2** hardlink this command is used to create a linked file in this case if file1 exist it will create a file2 with same data as file1 and it will be synced to changes if we add any change to file1 or file2 both will bw synced.<br>
+**ln -s file1 file2** this is used to create a softlink in our command a link file2 is created that points to the address of the file2  if we delete file 1 file 2 is lost <br>as its a address or link to file1.<br>
 
 # Shell Scripting<br>
 It is used for task automation for example if we want to install any app like nginx <br>

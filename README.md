@@ -15,6 +15,7 @@ cloud computing notes<br>
 **git branch newbranch**(used to create a new branch)<br>
 **git remote add origin** (Used to link local repo to github repo on the internet its not important for you to be the owner of that branch)<br>
 <br>
+**git show** this command shows the details of a object or branch etc.
 # Linux and its commands<br>
 The users data is available in home folder<br>
 The commands that we run in linux its files are present in **bin folder**<br>

@@ -61,8 +61,10 @@ The logs,volumes and file such as html file for nginx is stored in **var folder*
 **ln file1 file2** hardlink this command is used to create a linked file in this case if file1 exist it will create a file2 with same data as file1 and it will be synced to changes if we add any change to file1 or file2 both will bw synced.<br>
 **ln -s file1 file2** this is used to create a softlink in our command a link file2 is created that points to the address of the file2  if we delete file 1 file 2 is lost <br>as its a address or link to file1.<br>
 
+
 # Shell Scripting<br>
 It is used for task automation for example if we want to install any app like nginx <br>
+Bash does not needs variable type we can store any type of data so its dynamic by default it treats variable as strings
 # Common for every linux script<br>
 first line of the file is !/bin/bash <br>
 after that we can write any linux command we want to execute line apt update service nginx status etc<br>

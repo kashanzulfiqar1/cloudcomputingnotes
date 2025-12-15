@@ -1,19 +1,19 @@
 # cloudcomputingnotes
 cloud computing notes<br>
 # Git commands<br>
-git clone gitlink(to clone a repo on local pc)
-git push (for pushing any file to a repo)<br>
-git add (to add any file to staging)<br>
-git push origin main<br>
-git revert (to revert a commit)<br>
-git fetch (to upate repo with the repo on the remote)<br>
-git fetch origin<br>
-git branch -r(for checking the remote branchs)<br>
-git branch -a(for checking all branches)<br>
-git status (for checking the status of a branch if any file is added changed or deleted etc)<br>
-git checkout branchname (used to navigate to branches)<br>
-git branch newbranch(used to create a new branch)<br>
-git remote add origin (Used to link local repo to github repo on the internet its not important for you to be the owner of that branch)<br>
+**git clone gitlink**(to clone a repo on local pc)
+**git push** (for pushing any file to a repo)<br>
+**git add** (to add any file to staging)<br>
+**git push origin main**<br>
+**git revert** (to revert a commit)<br>
+**git fetch** (to upate repo with the repo on the remote)<br>
+**git fetch origin**<br>
+**git branch -r**(for checking the remote branchs)<br>
+**git branch -a**(for checking all branches)<br>
+**git status** (for checking the status of a branch if any file is added changed or deleted etc)<br>
+**git checkout branchname** (used to navigate to branches)<br>
+**git branch newbranch**(used to create a new branch)<br>
+**git remote add origin** (Used to link local repo to github repo on the internet its not important for you to be the owner of that branch)<br>
 <br>
 # Linux and its commands<br>
 The users data is available in home folder<br>

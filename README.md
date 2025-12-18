@@ -52,6 +52,9 @@ Linux file system is a hyrerical tree like file system which starts from / root 
 **grep**                   (grep command is used to match patterns and show it as output)<br>
 **egrep "loans?" file.txt** (this command is for nextended regix expressins now this command will show all the words with loan and loans )
 **Zgrep "loan" file.txt.gz**  (this command is used to match pattern and get output from a zip file)<br>
+**sort file.txt** (this command shows output sorted output)<br>
+**sort -n file.txt** (this command sorts the numeric data and shows the output)<br>
+**cut -c 1-5 file.txt** (this command is used to get specific part of text from file like in the given this prints the first 5 characters from the file)<br>
 **ls home | grep ubuntu**  (it will show all the folders or files that are in home folder)<br>
 **grep -i** -i flag is used to remove case sensitivity now it brings all the pattern even if its in capital or small letter that matches. 
 **ping -c 2 google.com**   (It will ping the google.com 2 times)<br>

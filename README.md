@@ -56,8 +56,11 @@ Linux file system is a hyrerical tree like file system which starts from / root 
 **sort -n file.txt** (this command sorts the numeric data and shows the output)<br>
 **cut -c 1-5 file.txt** (this command is used to get specific part of text from file like in the given this prints the first 5 characters from the file)<br>
 **uniq file.txt** (this command skips the adjcent duplicte words and prints the rest) <br>
-**sed 's/apple/saib/' file.txt** (this command is used to replace words and show as output)<br>
-**sed -i 's/apple/saib/' file.txt** (this command is used to relace words and save it in the file without showing output)<br>
+**sed 's/apple/saib/' file.txt** (sed wroks as a noninteractive text editor this command is used to replace words and show as output)<br>
+replace string **sed -i 's/apple/saib/' file.txt** (this command is used to relace words and save it in the file without showing output)<br>
+delete **sed '1d' sortfile.txt** (delete specific line by number)
+delete **sed -i '/apple/d' file.txt** (this command deletes the word apply in the file)
+print **sed -n '/32/p' sortfile.txt** ( this command is used to print a line that matches the pattern)
 **ls home | grep ubuntu**  (it will show all the folders or files that are in home folder)<br>
 **pipeline command**<br>
 **mkdir newdir |touch newfile.txt** (these 2  commands with  pipeline will execute both commands at the same time)

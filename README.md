@@ -55,8 +55,11 @@ Linux file system is a hyrerical tree like file system which starts from / root 
 **sort file.txt** (this command shows output sorted output)<br>
 **sort -n file.txt** (this command sorts the numeric data and shows the output)<br>
 **cut -c 1-5 file.txt** (this command is used to get specific part of text from file like in the given this prints the first 5 characters from the file)<br>
+**uniq file.txt** (this command skips the adjcent duplicte words and prints the rest) <br>
+**sed 's/apple/saib/' file.txt** (this command is used to replace words and show as output)<br>
+**sed -i 's/apple/saib/' file.txt** (this command is used to relace words and save it in the file without showing output)<br>
 **ls home | grep ubuntu**  (it will show all the folders or files that are in home folder)<br>
-**grep -i** -i flag is used to remove case sensitivity now it brings all the pattern even if its in capital or small letter that matches. 
+**grep -i** -i flag is used to remove case sensitivity now it brings all the pattern even if its in capital or small letter that matches. <br>
 **ping -c 2 google.com**   (It will ping the google.com 2 times)<br>
 **ps**                     (shows processes that are running)<br>
 **ctrl+c**                 (used to terminate foreground processes)<br>

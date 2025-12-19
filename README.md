@@ -97,6 +97,7 @@ print **sed -n '/32/p' sortfile.txt** ( this command is used to print a line tha
 **gzip file.txt** (this command is used to zip a file)<br>
 **zcat file.txt** (this command is used to show the test of a zip file) <br>
 **gunzip file.txt.gz** (this command is used to unzip a zip file)<br>
+gzip does not works on directories.
 wc file.txt (this command is used to count lines words and bytes of characters)<br>
 1.number of lines<br>
 2.number of words<br>
@@ -112,7 +113,12 @@ wc -l  file.txt (this command is used to count the number of lines in a file) <b
 **ln file1 file2** hardlink this command is used to create a linked file in this case if file1 exist it will create a file2 with same data as file1 and it will be synced to changes if we add any change to file1 or file2 both will bw synced.<br>
 **ln -s file1 file2** this is used to create a softlink in our command a link file2 is created that points to the address of the file2  if we delete file 1 file 2 is lost <br>as its a address or link to file1.<br>
 **Remove user for group in cent os command** "gpasswd -d username groupname"<br>
-
+# zip 
+zip command is used to zip compress directories 
+# unzip
+this command is used to unzip or decompress a ziped file.
+# tar
+gzip does not works on directories so if we want to archive a directory with all files in it we use tar 
 
 
 # Shell Scripting<br>

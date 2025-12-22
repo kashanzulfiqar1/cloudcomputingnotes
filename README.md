@@ -128,6 +128,9 @@ gzip does not works on directories so if we want to archive a directory with all
 # etc/hosts file importance
 linux system searches in /etc/hosts for resolving hostname (converting hostname to ip so computer knows where to connect)<br>>
 like if we want to ping google.com it will not work if hostname is not maped we have to map that is /etc/hosts file like 8.8.8.8 google.com and www.google.com and ping then<br> it will work without any issue.<br>
+# /etc/resolv.conf file importance <br>
+**/etc/resolv.conf = “Where should I ask when I need to resolve a hostname?”** <br>
+if the system does not finds dns maping in /etc/hosts file it sends a request to nameservers listed in the resolv.conf file and gets the ip address back.like nameserver of<br> google nameserver 8.8.8.8 now when we type ping youtube.com we will be able to ping using google public dns.<br>
 
 # Shell Scripting<br>
 It is used for task automation for example if we want to install any app like nginx <br>

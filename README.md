@@ -139,6 +139,9 @@ if selinux is in enforcing mode and we try to change the password for the root u
 if we try to change the password using emergency mode it will allow without any issue but will log the changes
 **Disabled** In this mode the selinux is dispabled does not saves logs or does not blocks access.
 in this mode its disabled perminently.
+**Break root password (rescue mode)**
+restart system using init 6
+Go in grub menu and press e now edit the initial executable commands write rw and init=/bin/bash then ctrl+x it will get you to bash terminal now first make a .autorelable file which will tell selinux that a change is done in the linux file now run command passwd command and type new paassword now reboot by command exec /sbin/init your password is resetted.
 # Shell Scripting<br>
 It is used for task automation for example if we want to install any app like nginx <br>
 Bash does not needs variable type we can store any type of data so its dynamic by default it treats variable as strings

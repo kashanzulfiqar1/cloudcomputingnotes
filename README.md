@@ -138,6 +138,8 @@ if the system does not finds dns maping in /etc/hosts file it sends a request to
 SE linux  is a kernel security module that is responsible for mandatory access control for strict permissions it has 3 modes  Enforcing Permissive Disable 
 **Enforcing** In this mode the selinux saves logs and blocks access .
 if selinux is in enforcing mode and we try to change the password for the root user without making /.autorelabel file then it will restrict all uses from logging in the system.
+**scp** this command is used to copy paste any file from to linux or windows.
+**rsync**  
 **Permissive** In this mode the selinux saves logs only does not blocks user.
 if we try to change the password using emergency mode it will allow without any issue but will log the changes
 **Disabled** In this mode the selinux is dispabled does not saves logs or does not blocks access.

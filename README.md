@@ -4,6 +4,7 @@ cloud computing notes<br>
 **git clone gitlink**(to clone a repo on local pc)
 **git push** (for pushing any file to a repo)<br>
 **git add** (to add any file to staging)<br>
+**git pull** it is used to pull changes from the online repo <br>
 **git push origin main**<br>
 **git revert** (to revert a commit)<br>
 **git fetch** (to upate repo with the repo on the remote)<br>
@@ -13,6 +14,7 @@ cloud computing notes<br>
 **git status** (for checking the status of a branch if any file is added changed or deleted etc)<br>
 **git checkout branchname** (used to navigate to branches)<br>
 **git branch newbranch**(used to create a new branch)<br>
+**git log** git log command is used to view all commits <br>
 **git remote add origin** (Used to link local repo to github repo on the internet its not important for you to be the owner of that branch)<br>
 <br>
 **git show** this command shows the details of a object or branch etc.

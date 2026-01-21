@@ -11,6 +11,8 @@ cloud computing notes<br>
 **git fetch origin**<br>
 **git branch -r**(for checking the remote branchs)<br>
 **git branch -a**(for checking all branches)<br>
+**git branch -d branchname** for deleting a branch in repo.
+**git log --oneline** this command is used to check the commits with hash 
 **git status** (for checking the status of a branch if any file is added changed or deleted etc)<br>
 **git checkout branchname** (used to navigate to branches)<br>
 **git branch newbranch**(used to create a new branch)<br>

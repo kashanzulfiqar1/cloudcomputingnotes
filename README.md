@@ -4,9 +4,16 @@ cloud computing notes<br>
 **git clone gitlink**(to clone a repo on local pc)
 **git push** (for pushing any file to a repo)<br>
 **git add** (to add any file to staging)<br>
-**git pull** it is used to pull changes from the online repo <br>
-**git push origin main**<br>
-**git revert** (to revert a commit)<br>
+**git pull** it is used to pull changes from the online repo and also merges them<br>
+**git tag v3.0.0 551dc8c** this command is used for adding tag to any commit<br>
+**git branch remote add origin repolink** this command is used to link local repo with remote repo<br>
+**git switch branchname**this command is used to switch branches <br>
+**git branch -d branchname** this command is used to delete a branch<br>
+**git checkout -b featurebranch** this command is used to make a new branch and switch to that branch <br>
+**git push origin main** used to mush local branches to main<br>
+**git tag v1.0.0** this command is used to tag latest commit <br>
+**git tag v1.0.0 #commmithash**  this command is used tag commit according to hash<br>
+**git revert hash** (to revert a commit)<br>
 **git fetch** (to upate repo with the repo on the remote)<br>
 **git fetch origin**<br>
 **git branch -r**(for checking the remote branchs)<br>

@@ -244,6 +244,9 @@ This class provides most cheepest way of storing data but retrival cost is high.
 
 This creates a logical rack of ec2s .We can place ec2s in our predefined racks or partitions to improve fault tolerance if we need to improve speed between ec2s we can use <br>cluster partition group and if we need to isolate it we can use partition type.Partition placement group is more scalable then spread placement group that only supports <br>7 ec2s per availability zone.<br>
 # Docker commands
+what are container
+container is operating system level virtualization that packs all the required necessary packages for a specififc app to run.
+it solves the problem of "it works on my pc"
 **Command to mount a folder to docker container using bind mount**<br>
 docker run -it -d -p 81:80 --mount type=bind,source=/home/testuser/newtestdir/volumedire,target=/newfile  --name cont1 nginx<br>
 **docker container port expose command**<br>

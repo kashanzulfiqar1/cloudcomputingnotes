@@ -58,6 +58,7 @@ Linux file system is a hyrerical tree like file system which starts from / root 
 # Users & Groups
 
 # linux commands<br>
+**curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -** command to cheeck internet speed <br>
 **pws**                    (to check present working directory)<br>
 **cd**                     (change directory)<br>
 **kill -9 processid**      (force stop any process)<br>

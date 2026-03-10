@@ -58,6 +58,7 @@ Linux file system is a hyrerical tree like file system which starts from / root 
 # Users & Groups
 
 # linux commands<br>
+**docker save gcr.io/k8s-minikube/kicbase:v0.0.49 | gzip > kicbase.tar.gz** command to save image as tar file <br>
 **curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -** command to check internet speed <br>
 **pws**                    (to check present working directory)<br>
 **cd**                     (change directory)<br>

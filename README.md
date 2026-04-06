@@ -81,6 +81,13 @@ Linux file system is a hyrerical tree like file system which starts from / root 
 Insert text before a line **sed '1i\newtext' newfile.txt**<br>
 Insert text after a line **sed '1a\newtext' newfile.txt**<br>
 
+**cronjob** <br>
+**crond is thee service for cronjob**<br><br>
+**crontab -e** used for editing cronjobs<br>
+**crontab -r** for removing cronjobs from list<br>
+**crontab -l** for listing all cronjobs<br>
+<br>
+
 replace string **sed -i 's/apple/saib/' file.txt** (this command is used to relace words and save it in the file without showing output)<br>
 delete **sed '1d' sortfile.txt** (delete specific line by number)
 delete **sed -i '/apple/d' file.txt** (this command deletes the word apply in the file)

@@ -263,5 +263,9 @@ docker run -it -d -p 81:80 --expose=82 --name cont3 nginx<br>
 Docker file difference between Run and Cmd command
 Run command executes During image build. used if we want to install a package like apt install nginx.
 Cmd command executes when container starts. A docker command can only have only one Cmd if there are multiple then only last will be executed.Its changes cannot be overridden because the changes are stored in the image.
+**docker command to save a container as image**<br>
+docker commit -m "" containername newimagename<br>
+**docker command to save image offline**<br>
+docker save -o filename image_name<br>
 # Docker <br>
 <img width="596" height="590" alt="image" src="https://github.com/user-attachments/assets/ac0ef898-b71c-46a3-ae03-ea78d30b0c2e" /><br>

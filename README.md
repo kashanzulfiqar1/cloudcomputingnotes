@@ -265,6 +265,8 @@ Run command executes During image build. used if we want to install a package li
 Cmd command executes when container starts. A docker command can only have only one Cmd if there are multiple then only last will be executed.Its changes cannot be overridden because the changes are stored in the image.
 **docker command to save a container as image**<br>
 docker commit -m "" containername newimagename<br>
+**docker command to load image from local**<br>
+docker load -i "imagepath"<br>
 **docker command to save image offline**<br>
 docker save -o filename image_name<br>
 # Docker <br>

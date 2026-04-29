@@ -271,3 +271,17 @@ docker load -i "imagepath"<br>
 docker save -o filename image_name<br>
 # Docker <br>
 <img width="596" height="590" alt="image" src="https://github.com/user-attachments/assets/ac0ef898-b71c-46a3-ae03-ea78d30b0c2e" /><br>
+
+<br>
+**gitlab**<br>
+How to ssh in another vm using gitlab? <br>
+step 1 is to covert the ssh key to base 64 using below command <br>
+base64 -w 0 id_ed25519 > key_base64.txt<br><br>
+now open the file and copy and paste the content to the gitlab cicd variables as variable<br>
+now we Decode the file in he script and store the variable data to file because gitlab can mangle the key whe we copy raw key to it as file or variable.<br>
+so we use below command to decode the variable to file<br>
+echo "$ssh_key" | base64 -d > /tmp/id_rsa<br>
+then we give it permission to read write <br>
+chmod 600 file name<br>
+then  we use this file in our ssh or scp command<br>
+

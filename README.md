@@ -274,7 +274,7 @@ docker save -o filename image_name<br>
 
 <br>
 
-**Gitlab ** <br>
+**Gitlab** <br>
 How to ssh in another vm using gitlab? <br>
 step 1 is to covert the ssh key to base 64 using below command <br>
 base64 -w 0 id_ed25519 > key_base64.txt<br><br>

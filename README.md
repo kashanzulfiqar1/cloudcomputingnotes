@@ -80,7 +80,14 @@ Linux file system is a hyrerical tree like file system which starts from / root 
 **sed 's/apple/saib/' file.txt** (sed wroks as a noninteractive text editor this command is used to replace words and show as output)<br>
 Insert text before a line **sed '1i\newtext' newfile.txt**<br>
 Insert text after a line **sed '1a\newtext' newfile.txt**<br>
+<br><br>**command to stop auto update**
+# 1. Stop and disable the automatic upgrade service<br>
+sudo systemctl stop unattended-upgrades<br>
+sudo systemctl disable unattended-upgrades<br>
 
+# 2. Disable systemd update timers
+sudo systemctl stop apt-daily.timer apt-daily-upgrade.timer
+sudo systemctl disable apt-daily.timer apt-daily-upgrade.timer
 **cronjob** <br>
 **crond is thee service for cronjob**<br><br>
 **crontab -e** used for editing cronjobs<br>

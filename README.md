@@ -301,3 +301,6 @@ then  we use this file in our ssh or scp command<br>
 <br>
 Terraform makes a .tfstate file when first time we run terraform init and on second run it automatically gets that filee and avoids duplicstio by comparing the file.
 In github in cicd when wee run terraform init the .tfstate file is not saved as the runner removes all the files after the job so we store it on s3 nromally and givee address of s3 in terraform in main.tf backend tag.
+<br>
+terraform flow is like it first passes the variable values from staging/main.tf to modulees/variables.tf then modules/main.tf uses these variables values for deployment.
+<br>
